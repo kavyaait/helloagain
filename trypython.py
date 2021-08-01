@@ -22,7 +22,7 @@ df2['EDUCA'] = df2['EDUCA'].map(lambda x: x.replace('Grades 1 through 8 (Element
 df2['EDUCA'] = df2['EDUCA'].map(lambda x: x.replace('Grades 9 through 11 (Some high school)','Some high school'))
 
 
-#categorical conversion of income
+#categorical conversion of income not used
 df2['INCOME2'] = df2['INCOME2'].astype(str)
 df2['INCOME2'] = df2['INCOME2'].map(lambda x: x.replace('Less than $15,000 ($10,000 to less than $15,000)','Less than 15'))
 df2['INCOME2'] = df2['INCOME2'].map(lambda x: x.replace('Less than $20,000 ($15,000 to less than $20,000)','Less than 20'))
